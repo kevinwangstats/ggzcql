@@ -24,6 +24,6 @@ test_that("scale_color_zcql and scale_fill_zcql return scale objects", {
 test_that("theme_zcql sets the correct background color", {
   th <- theme_zcql()
   expect_s3_class(th, "theme")
-  expect_equal(th$plot.background$fill, "#F3B665")
-  expect_equal(th$panel.background$fill, "#F3B665")
+  expect_equal(th$plot.background$fill, "#937642")
+  expect_equal(th$panel.background$fill, "#937642")
 })

@@ -80,7 +80,7 @@ scale_fill_zcql <- function(palette = c("default"), alpha = 1, ...) {
 
 #' zcql Theme for ggplot2
 #'
-#' A custom ggplot2 theme with background color `#F3B665` (Sunlit Clay).
+#' A custom ggplot2 theme with background color `#937642` inspired by the aged silk canvas of "A Thousand Li of Rivers and Mountains".
 #'
 #' @param base_size Base font size.
 #' @param base_family Base font family.
@@ -105,8 +105,8 @@ theme_zcql <- function(base_size = 11, base_family = "") {
     )
 }
 
-# Pre-defined background color (Sunlit Clay)
-ggzcql_bg <- c(zcql = "#F3B665")
+# Pre-defined background color (Aged Silk Canvas from "A Thousand Li of Rivers and Mountains")
+ggzcql_bg <- c(zcql = "#937642")
 
 # Pre-defined palette colors (Fresh Sky, Celadon, Olive Wood, Tea Green)
 ggzcql_palettes <- list(

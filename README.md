@@ -12,9 +12,10 @@ design patterns of [`ggsci`](https://github.com/nanxstats/ggsci).
 
 ## Palette Colors
 
-The `zcql` palette features: - **Background Theme Color**: `#F3B665`
-(Sunlit Clay) - **Palette Colors**: 1. `#2AA4E5` (Fresh Sky) 2.
-`#80C79A` (Celadon) 3. `#856A3B` (Olive Wood) 4. `#D7FEBF` (Tea Green)
+The `zcql` palette features: - **Background Theme Color**: `#937642`
+(Aged Silk Canvas from *A Thousand Li of Rivers and Mountains*) -
+**Palette Colors**: 1. `#2AA4E5` (Fresh Sky) 2. `#80C79A` (Celadon) 3.
+`#856A3B` (Olive Wood) 4. `#D7FEBF` (Tea Green)
 
 ## Installation
 

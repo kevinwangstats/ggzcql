@@ -12,7 +12,7 @@ theme_zcql(base_size = 11, base_family = "")
 \item{base_family}{Base font family.}
 }
 \description{
-A custom ggplot2 theme with background color \verb{#F3B665} (Sunlit Clay).
+A custom ggplot2 theme with background color \verb{#937642} inspired by the aged silk canvas of "A Thousand Li of Rivers and Mountains".
 }
 \examples{
 library("ggplot2")
