@@ -80,7 +80,7 @@ scale_fill_zcql <- function(palette = c("default"), alpha = 1, ...) {
 
 #' zcql Theme for ggplot2
 #'
-#' A custom ggplot2 theme with background color `#937642` inspired by the aged silk canvas of "A Thousand Li of Rivers and Mountains".
+#' A custom ggplot2 theme with a light golden silk background (`#E8D7B0`) inspired by the luminous silk canvas of "A Thousand Li of Rivers and Mountains".
 #'
 #' @param base_size Base font size.
 #' @param base_family Base font family.
@@ -102,25 +102,25 @@ theme_zcql <- function(base_size = 11, base_family = "") {
       panel.background = ggplot2::element_rect(fill = bg_color, color = NA),
       legend.background = ggplot2::element_rect(fill = bg_color, color = NA),
       legend.box.background = ggplot2::element_rect(fill = bg_color, color = NA),
-      panel.grid.major = ggplot2::element_line(color = "#A88C56", linewidth = 0.4),
-      panel.grid.minor = ggplot2::element_line(color = "#9E834D", linewidth = 0.2),
-      text = ggplot2::element_text(color = "#1A140B"),
-      axis.text = ggplot2::element_text(color = "#2B2113")
+      panel.grid.major = ggplot2::element_line(color = "#D4C299", linewidth = 0.5),
+      panel.grid.minor = ggplot2::element_line(color = "#DECFA9", linewidth = 0.25),
+      text = ggplot2::element_text(color = "#2C2216"),
+      axis.text = ggplot2::element_text(color = "#3D301F")
     )
 }
 
-# Pre-defined background color (Aged Silk Canvas from "A Thousand Li of Rivers and Mountains")
-ggzcql_bg <- c(zcql = "#937642")
+# Pre-defined light golden silk background color
+ggzcql_bg <- c(zcql = "#E8D7B0")
 
-# Pre-defined mineral palette colors extracted directly from "A Thousand Li of Rivers and Mountains"
+# Pre-defined mineral palette colors (Azurite Blue, Malachite Green, Cinnabar Red, Spring Green, Raw Ochre)
 ggzcql_palettes <- list(
   zcql = list(
     default = c(
-      "#4B9CD3", # Mineral Azurite Cyan-Blue (Peaks)
-      "#6BAA97", # Malachite Jade Green (Hills)
-      "#C64B35", # Cinnabar Red (Seals & Highlights)
-      "#A6C996", # Soft Spring Green (Waterfront)
-      "#9F7138"  # Raw Ochre (Cliff Face)
+      "#1E88E5", # Mineral Azurite Cyan-Blue
+      "#388E3C", # Malachite Jade Green
+      "#D32F2F", # Cinnabar Red
+      "#7CB342", # Soft Spring Green
+      "#8D6E63"  # Raw Ochre
     )
   )
 )

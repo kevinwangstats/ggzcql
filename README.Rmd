@@ -23,15 +23,15 @@ knitr::opts_chunk$set(
 
 ## Palette Colors
 
-The `zcql` palette and theme are directly sampled from Song Dynasty painter Wang Ximeng's masterpiece *"A Thousand Li of Rivers and Mountains"* (《千里江山图》):
+The `zcql` palette and theme are directly inspired by Song Dynasty painter Wang Ximeng's masterpiece *"A Thousand Li of Rivers and Mountains"* (《千里江山图》):
 
-- **Background Theme Color**: `#937642` (Aged Silk Canvas)
+- **Background Theme Color**: `#E8D7B0` (Light Golden Silk Canvas)
 - **Palette Colors**:
-  1. `#4B9CD3` (Azurite Cyan-Blue)
-  2. `#6BAA97` (Malachite Green)
-  3. `#C64B35` (Cinnabar Red)
-  4. `#A6C996` (Soft Spring Green)
-  5. `#9F7138` (Raw Ochre)
+  1. `#1E88E5` (Azurite Cyan-Blue)
+  2. `#388E3C` (Malachite Green)
+  3. `#D32F2F` (Cinnabar Red)
+  4. `#7CB342` (Soft Spring Green)
+  5. `#8D6E63` (Raw Ochre)
 
 ## Installation
 
