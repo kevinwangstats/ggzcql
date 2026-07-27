@@ -9,7 +9,8 @@ knitr::opts_chunk$set(
   collapse = TRUE,
   comment = "#>",
   fig.path = "man/figures/README-",
-  out.width = "100%"
+  out.width = "100%",
+  dpi = 300
 )
 ```
 
@@ -43,7 +44,7 @@ pak::pak("nanxstats/ggzcql")
 
 This example demonstrates how to use `scale_color_zcql()` and `theme_zcql()` in a `ggplot2` plot:
 
-```{r example-plot, fig.height = 5, fig.width = 7}
+```{r example-plot, fig.height = 5, fig.width = 7, dpi = 300}
 library(ggplot2)
 library(ggzcql)
 
