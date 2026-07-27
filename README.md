@@ -1,1 +1,43 @@
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
 # ggzcql
+
+<!-- badges: start -->
+
+<!-- badges: end -->
+
+`ggzcql` provides color palettes and themes for `ggplot2`, following the
+design patterns of [`ggsci`](https://github.com/nanxstats/ggsci).
+
+## Palette Colors
+
+The `zcql` palette features: - **Background Theme Color**: `#F3B665`
+(Sunlit Clay) - **Palette Colors**: 1. `#2AA4E5` (Fresh Sky) 2.
+`#80C79A` (Celadon) 3. `#856A3B` (Olive Wood) 4. `#D7FEBF` (Tea Green)
+
+## Installation
+
+You can install the development version of `ggzcql` from GitHub:
+
+``` r
+# install.packages("pak")
+pak::pak("nanxstats/ggzcql")
+```
+
+## Example
+
+This example demonstrates how to use `scale_color_zcql()` and
+`theme_zcql()` in a `ggplot2` plot:
+
+``` r
+library(ggplot2)
+library(ggzcql)
+
+ggplot(iris, aes(Sepal.Length, Sepal.Width, color = Species)) +
+  geom_point(size = 3) +
+  scale_color_zcql() +
+  theme_zcql()
+```
+
+<img src="man/figures/README-example-plot-1.png" alt="" width="100%" />
