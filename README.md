@@ -12,10 +12,17 @@ design patterns of [`ggsci`](https://github.com/nanxstats/ggsci).
 
 ## Palette Colors
 
-The `zcql` palette features: - **Background Theme Color**: `#937642`
-(Aged Silk Canvas from *A Thousand Li of Rivers and Mountains*) -
-**Palette Colors**: 1. `#2AA4E5` (Fresh Sky) 2. `#80C79A` (Celadon) 3.
-`#856A3B` (Olive Wood) 4. `#D7FEBF` (Tea Green)
+The `zcql` palette and theme are directly sampled from Song Dynasty
+painter Wang Ximeng’s masterpiece *“A Thousand Li of Rivers and
+Mountains”* (《千里江山图》):
+
+- **Background Theme Color**: `#937642` (Aged Silk Canvas)
+- **Palette Colors**:
+  1.  `#4B9CD3` (Azurite Cyan-Blue)
+  2.  `#6BAA97` (Malachite Green)
+  3.  `#C64B35` (Cinnabar Red)
+  4.  `#A6C996` (Soft Spring Green)
+  5.  `#9F7138` (Raw Ochre)
 
 ## Installation
 

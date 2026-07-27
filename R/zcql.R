@@ -1,6 +1,6 @@
 #' zcql Palette
 #'
-#' Color palette inspired by zcql.
+#' Color palette inspired by "A Thousand Li of Rivers and Mountains" (千里江山图).
 #'
 #' @param palette Palette type ("default").
 #' @param alpha Transparency level, a number between 0 and 1.
@@ -9,7 +9,7 @@
 #'
 #' @examples
 #' library("scales")
-#' show_col(pal_zcql()(4))
+#' show_col(pal_zcql()(5))
 pal_zcql <- function(palette = c("default"), alpha = 1) {
   palette <- match.arg(palette)
 
@@ -101,21 +101,26 @@ theme_zcql <- function(base_size = 11, base_family = "") {
       plot.background = ggplot2::element_rect(fill = bg_color, color = NA),
       panel.background = ggplot2::element_rect(fill = bg_color, color = NA),
       legend.background = ggplot2::element_rect(fill = bg_color, color = NA),
-      legend.box.background = ggplot2::element_rect(fill = bg_color, color = NA)
+      legend.box.background = ggplot2::element_rect(fill = bg_color, color = NA),
+      panel.grid.major = ggplot2::element_line(color = "#A88C56", linewidth = 0.4),
+      panel.grid.minor = ggplot2::element_line(color = "#9E834D", linewidth = 0.2),
+      text = ggplot2::element_text(color = "#1A140B"),
+      axis.text = ggplot2::element_text(color = "#2B2113")
     )
 }
 
 # Pre-defined background color (Aged Silk Canvas from "A Thousand Li of Rivers and Mountains")
 ggzcql_bg <- c(zcql = "#937642")
 
-# Pre-defined palette colors (Fresh Sky, Celadon, Olive Wood, Tea Green)
+# Pre-defined mineral palette colors extracted directly from "A Thousand Li of Rivers and Mountains"
 ggzcql_palettes <- list(
   zcql = list(
     default = c(
-      "#2AA4E5", # Fresh Sky
-      "#80C79A", # Celadon
-      "#856A3B", # Olive Wood
-      "#D7FEBF"  # Tea Green
+      "#4B9CD3", # Mineral Azurite Cyan-Blue (Peaks)
+      "#6BAA97", # Malachite Jade Green (Hills)
+      "#C64B35", # Cinnabar Red (Seals & Highlights)
+      "#A6C996", # Soft Spring Green (Waterfront)
+      "#9F7138"  # Raw Ochre (Cliff Face)
     )
   )
 )

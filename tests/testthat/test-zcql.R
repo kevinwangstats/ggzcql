@@ -1,11 +1,12 @@
 test_that("pal_zcql returns correct colors", {
   pal <- pal_zcql()
-  cols <- pal(4)
-  expect_equal(length(cols), 4)
-  expect_equal(cols[1], "#2AA4E5")
-  expect_equal(cols[2], "#80C79A")
-  expect_equal(cols[3], "#856A3B")
-  expect_equal(cols[4], "#D7FEBF")
+  cols <- pal(5)
+  expect_equal(length(cols), 5)
+  expect_equal(cols[1], "#4B9CD3")
+  expect_equal(cols[2], "#6BAA97")
+  expect_equal(cols[3], "#C64B35")
+  expect_equal(cols[4], "#A6C996")
+  expect_equal(cols[5], "#9F7138")
 })
 
 test_that("pal_zcql supports alpha modification", {

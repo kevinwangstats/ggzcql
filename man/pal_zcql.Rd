@@ -12,9 +12,9 @@ pal_zcql(palette = c("default"), alpha = 1)
 \item{alpha}{Transparency level, a number between 0 and 1.}
 }
 \description{
-Color palette inspired by zcql.
+Color palette inspired by "A Thousand Li of Rivers and Mountains" (千里江山图).
 }
 \examples{
 library("scales")
-show_col(pal_zcql()(4))
+show_col(pal_zcql()(5))
 }
